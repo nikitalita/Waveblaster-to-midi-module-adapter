@@ -1,0 +1,199 @@
+2022-07-23 22:32:00.356 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 22:32:00.374 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 22:32:02.495 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 22:32:02.497 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 22:32:02.679 [main] TRACE Method 'MainApplication.main()' was performed in 2.44 seconds.
+2022-07-23 22:32:02.678 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 22:32:03.203 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '28d8c3d9aef67419e83043e9a03708b2' making 32 changes' was performed in 0.41 seconds.
+2022-07-23 22:32:03.297 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'a43d7e9e8cab8aafb420ab8255f671a8' making 11 changes' was performed in 0.07 seconds.
+2022-07-23 22:32:03.316 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'a601fc20f1a3881f9e776a2f87947892' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 22:32:03.317 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.64 seconds.
+2022-07-23 22:32:03.318 [Thread-0] INFO  Auto-routing was completed in 0.64 seconds.
+2022-07-23 22:32:03.319 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 22:32:03.544 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 6 vias and 360,657.65 trace length running on 15 threads.' was performed in 0.22 seconds.
+2022-07-23 22:32:03.546 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.23 seconds.
+2022-07-23 22:32:03.548 [Thread-0] INFO  Route optimization was completed in 0.23 seconds and it improved the design by ~1.25%.
+2022-07-23 22:32:03.555 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.88 seconds.
+2022-07-23 22:32:03.556 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 22:32:58.601 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 22:32:58.617 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 22:33:00.679 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 22:33:00.680 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 22:33:00.869 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 22:33:00.869 [main] TRACE Method 'MainApplication.main()' was performed in 2.39 seconds.
+2022-07-23 22:33:01.362 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '7bc563cb9b38cac98c6c669062e0307c' making 33 changes' was performed in 0.39 seconds.
+2022-07-23 22:33:01.445 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '774002af9f143322a1d17ecfb76afa29' making 11 changes' was performed in 0.07 seconds.
+2022-07-23 22:33:01.463 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'bf9cf50e6f53224580bde2e99b05baf7' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 22:33:01.464 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.59 seconds.
+2022-07-23 22:33:01.465 [Thread-0] INFO  Auto-routing was completed in 0.59 seconds.
+2022-07-23 22:33:01.465 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 22:33:01.705 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 6 vias and 276,925.48 trace length running on 15 threads.' was performed in 0.23 seconds.
+2022-07-23 22:33:01.836 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 20 items, 6 vias and 267,944.31 trace length running on 15 threads.' was performed in 0.13 seconds.
+2022-07-23 22:33:01.962 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 20 items, 3 vias and 262,880.59 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:33:02.101 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 20 items, 3 vias and 258,669.22 trace length running on 15 threads.' was performed in 0.14 seconds.
+2022-07-23 22:33:02.224 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 20 items, 2 vias and 256,239.45 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:33:02.329 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #6 with 21 items, 2 vias and 256,227.68 trace length running on 15 threads.' was performed in 0.10 seconds.
+2022-07-23 22:33:02.441 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #7 with 21 items, 2 vias and 256,093.60 trace length running on 15 threads.' was performed in 0.11 seconds.
+2022-07-23 22:33:02.541 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #8 with 22 items, 2 vias and 256,093.60 trace length running on 15 threads.' was performed in 0.10 seconds.
+2022-07-23 22:33:02.543 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 1.08 seconds.
+2022-07-23 22:33:02.544 [Thread-0] INFO  Route optimization was completed in 1.08 seconds and it improved the design by ~53.76%.
+2022-07-23 22:33:02.551 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1.68 seconds.
+2022-07-23 22:33:02.552 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 22:38:25.527 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 22:38:25.543 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 22:38:27.688 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 22:38:27.689 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 22:38:27.872 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 22:38:27.873 [main] TRACE Method 'MainApplication.main()' was performed in 2.47 seconds.
+2022-07-23 22:38:28.340 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'ff7d934eef27ba647314beaeb0e9a300' making 36 changes' was performed in 0.37 seconds.
+2022-07-23 22:38:28.392 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '9408d54cf6d22a79b0b5db93f7c718b4' making 6 changes' was performed in 0.04 seconds.
+2022-07-23 22:38:28.409 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'b2c0913d63442c5e69849ba1cfbdee78' making 0 changes' was performed in 0.01 seconds.
+2022-07-23 22:38:28.411 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.54 seconds.
+2022-07-23 22:38:28.412 [Thread-0] INFO  Auto-routing was completed in 0.54 seconds.
+2022-07-23 22:38:28.412 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 22:38:28.619 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 7 vias and 266,157.22 trace length running on 15 threads.' was performed in 0.20 seconds.
+2022-07-23 22:38:28.774 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 20 items, 6 vias and 284,734.16 trace length running on 15 threads.' was performed in 0.15 seconds.
+2022-07-23 22:38:28.938 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 19 items, 4 vias and 251,006.58 trace length running on 15 threads.' was performed in 0.16 seconds.
+2022-07-23 22:38:29.076 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 20 items, 4 vias and 250,885.81 trace length running on 15 threads.' was performed in 0.14 seconds.
+2022-07-23 22:38:29.196 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 19 items, 3 vias and 250,203.77 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:38:29.290 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #6 with 20 items, 3 vias and 250,203.77 trace length running on 15 threads.' was performed in 0.09 seconds.
+2022-07-23 22:38:29.409 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #7 with 20 items, 2 vias and 256,834.60 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:38:29.508 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #8 with 22 items, 2 vias and 256,737.96 trace length running on 15 threads.' was performed in 0.10 seconds.
+2022-07-23 22:38:29.510 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 1.10 seconds.
+2022-07-23 22:38:29.511 [Thread-0] INFO  Route optimization was completed in 1.10 seconds and it improved the design by ~51.77%.
+2022-07-23 22:38:29.518 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1.65 seconds.
+2022-07-23 22:38:29.519 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 22:39:56.167 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 22:39:56.183 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 22:39:58.429 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 22:39:58.430 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 22:39:58.495 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 22:39:58.496 [main] TRACE Method 'MainApplication.main()' was performed in 2.45 seconds.
+2022-07-23 22:39:58.930 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '56a0819eeef27c0ef0cd4c340bb14be0' making 33 changes' was performed in 0.33 seconds.
+2022-07-23 22:39:58.976 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '498528eb143fb589a306f01b291c3d1e' making 6 changes' was performed in 0.03 seconds.
+2022-07-23 22:39:58.998 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'f323a8ebced3417d62f64a971165ef4f' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 22:39:58.999 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.50 seconds.
+2022-07-23 22:39:59.000 [Thread-0] INFO  Auto-routing was completed in 0.50 seconds.
+2022-07-23 22:39:59.001 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 22:39:59.206 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 5 vias and 240,628.80 trace length running on 15 threads.' was performed in 0.20 seconds.
+2022-07-23 22:39:59.343 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 20 items, 5 vias and 239,365.63 trace length running on 15 threads.' was performed in 0.14 seconds.
+2022-07-23 22:39:59.475 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 19 items, 2 vias and 244,004.42 trace length running on 15 threads.' was performed in 0.13 seconds.
+2022-07-23 22:39:59.594 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 21 items, 2 vias and 243,969.54 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:39:59.720 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 21 items, 2 vias and 231,889.99 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:39:59.827 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #6 with 22 items, 2 vias and 231,889.99 trace length running on 15 threads.' was performed in 0.10 seconds.
+2022-07-23 22:39:59.829 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.83 seconds.
+2022-07-23 22:39:59.830 [Thread-0] INFO  Route optimization was completed in 0.83 seconds and it improved the design by ~51.82%.
+2022-07-23 22:39:59.838 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1.34 seconds.
+2022-07-23 22:39:59.839 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 22:49:40.789 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 22:49:40.804 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 22:49:43.029 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 22:49:43.030 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 22:49:43.217 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 22:49:43.217 [main] TRACE Method 'MainApplication.main()' was performed in 2.55 seconds.
+2022-07-23 22:49:43.614 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '2e2428d1aec1b825ca4cb61d28100626' making 29 changes' was performed in 0.30 seconds.
+2022-07-23 22:49:43.659 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'c0dadc75d7b9d93e9e567a0a331e5c5a' making 6 changes' was performed in 0.03 seconds.
+2022-07-23 22:49:43.677 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board 'b506f30f9c9e3e64162bb9704452aad9' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 22:49:43.678 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.46 seconds.
+2022-07-23 22:49:43.679 [Thread-0] INFO  Auto-routing was completed in 0.46 seconds.
+2022-07-23 22:49:43.680 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 22:49:43.891 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 223,913.10 trace length running on 15 threads.' was performed in 0.20 seconds.
+2022-07-23 22:49:44.022 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 19 items, 4 vias and 221,688.60 trace length running on 15 threads.' was performed in 0.13 seconds.
+2022-07-23 22:49:44.142 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 18 items, 1 vias and 225,240.06 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:49:44.260 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 20 items, 1 vias and 225,205.19 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:49:44.384 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 20 items, 1 vias and 223,316.32 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-23 22:49:44.386 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.70 seconds.
+2022-07-23 22:49:44.387 [Thread-0] INFO  Route optimization was completed in 0.70 seconds and it improved the design by ~50.13%.
+2022-07-23 22:49:44.395 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1.18 seconds.
+2022-07-23 22:49:44.396 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 23:25:02.878 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 23:25:02.894 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 23:25:05.096 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 23:25:05.097 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 23:25:05.284 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 23:25:05.285 [main] TRACE Method 'MainApplication.main()' was performed in 2.53 seconds.
+2022-07-23 23:25:05.776 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'd24429fc53786e08f01f73843b511d54' making 32 changes' was performed in 0.39 seconds.
+2022-07-23 23:25:05.818 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '6fd0150b30a992e9e3a1550c5d3845fd' making 3 changes' was performed in 0.02 seconds.
+2022-07-23 23:25:05.836 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '8c440468b83480a76bb36c92f7c86974' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 23:25:05.838 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.55 seconds.
+2022-07-23 23:25:05.839 [Thread-0] INFO  Auto-routing was completed in 0.55 seconds.
+2022-07-23 23:25:05.840 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 23:25:06.037 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 3 vias and 238,910.46 trace length running on 15 threads.' was performed in 0.18 seconds.
+2022-07-23 23:25:06.039 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.20 seconds.
+2022-07-23 23:25:06.040 [Thread-0] INFO  Route optimization was completed in 0.20 seconds and it improved the design by ~0.22%.
+2022-07-23 23:25:06.049 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.76 seconds.
+2022-07-23 23:25:06.050 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-23 23:48:52.526 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-23 23:48:52.537 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-23 23:48:54.754 [main] INFO  Opening 'freerouting.rules'...
+2022-07-23 23:48:54.755 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-23 23:48:54.948 [Thread-0] INFO  Starting auto-routing...
+2022-07-23 23:48:54.949 [main] TRACE Method 'MainApplication.main()' was performed in 2.55 seconds.
+2022-07-23 23:48:55.360 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '795578fe5c058cffade81c412d36e184' making 31 changes' was performed in 0.31 seconds.
+2022-07-23 23:48:55.414 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'fc4db228a9c2958315bf4f0e05009568' making 6 changes' was performed in 0.04 seconds.
+2022-07-23 23:48:55.434 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '715f13c4cdb564f6809cd1bd2a448803' making 0 changes' was performed in 0.00 seconds.
+2022-07-23 23:48:55.435 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.48 seconds.
+2022-07-23 23:48:55.437 [Thread-0] INFO  Auto-routing was completed in 0.48 seconds.
+2022-07-23 23:48:55.437 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-23 23:48:55.708 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 4 vias and 227,309.29 trace length running on 15 threads.' was performed in 0.26 seconds.
+2022-07-23 23:48:55.709 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.27 seconds.
+2022-07-23 23:48:55.711 [Thread-0] INFO  Route optimization was completed in 0.27 seconds and it improved the design by ~1.58%.
+2022-07-23 23:48:55.720 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.77 seconds.
+2022-07-23 23:48:55.721 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-24 00:32:02.480 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-24 00:32:02.491 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-24 00:32:04.821 [main] INFO  Opening 'freerouting.rules'...
+2022-07-24 00:32:04.822 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-24 00:32:05.028 [Thread-0] INFO  Starting auto-routing...
+2022-07-24 00:32:05.028 [main] TRACE Method 'MainApplication.main()' was performed in 2.68 seconds.
+2022-07-24 00:32:05.451 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'faea08618847dd7ebd6ae06da495ca94' making 37 changes' was performed in 0.31 seconds.
+2022-07-24 00:32:05.474 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '534c3bd6d13666b07febab06bd47954e' making 0 changes' was performed in 0.00 seconds.
+2022-07-24 00:32:05.476 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.45 seconds.
+2022-07-24 00:32:05.477 [Thread-0] INFO  Auto-routing was completed in 0.45 seconds.
+2022-07-24 00:32:05.478 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-24 00:32:05.770 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 3 vias and 210,658.02 trace length running on 15 threads.' was performed in 0.28 seconds.
+2022-07-24 00:32:05.930 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 22 items, 3 vias and 208,656.48 trace length running on 15 threads.' was performed in 0.16 seconds.
+2022-07-24 00:32:06.070 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 21 items, 1 vias and 207,673.35 trace length running on 15 threads.' was performed in 0.14 seconds.
+2022-07-24 00:32:06.195 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #4 with 21 items, 1 vias and 207,673.35 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-24 00:32:06.314 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #5 with 21 items, 1 vias and 206,674.69 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-24 00:32:06.423 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #6 with 20 items, 1 vias and 207,137.18 trace length running on 15 threads.' was performed in 0.11 seconds.
+2022-07-24 00:32:06.425 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.95 seconds.
+2022-07-24 00:32:06.426 [Thread-0] INFO  Route optimization was completed in 0.95 seconds and it improved the design by ~50.84%.
+2022-07-24 00:32:06.433 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 1.41 seconds.
+2022-07-24 00:32:06.435 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-24 01:38:37.936 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-24 01:38:37.947 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-24 01:38:40.335 [main] INFO  Opening 'freerouting.rules'...
+2022-07-24 01:38:40.336 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-24 01:38:40.525 [Thread-0] INFO  Starting auto-routing...
+2022-07-24 01:38:40.526 [main] TRACE Method 'MainApplication.main()' was performed in 2.72 seconds.
+2022-07-24 01:38:40.929 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board '7795b4a030c53cca76556e127de31aea' making 34 changes' was performed in 0.31 seconds.
+2022-07-24 01:38:40.969 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board '74c1100f0c7c620710626aa81b7fbf15' making 3 changes' was performed in 0.02 seconds.
+2022-07-24 01:38:40.986 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #3 on board '4c16e2ae0bdb12951c9d78cf0d1b7380' making 0 changes' was performed in 0.00 seconds.
+2022-07-24 01:38:40.987 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.46 seconds.
+2022-07-24 01:38:40.989 [Thread-0] INFO  Auto-routing was completed in 0.46 seconds.
+2022-07-24 01:38:40.989 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-24 01:38:41.192 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 3 vias and 205,217.68 trace length running on 15 threads.' was performed in 0.19 seconds.
+2022-07-24 01:38:41.318 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 21 items, 3 vias and 203,737.29 trace length running on 15 threads.' was performed in 0.12 seconds.
+2022-07-24 01:38:41.451 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #3 with 21 items, 2 vias and 199,968.75 trace length running on 15 threads.' was performed in 0.13 seconds.
+2022-07-24 01:38:41.452 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.46 seconds.
+2022-07-24 01:38:41.454 [Thread-0] INFO  Route optimization was completed in 0.46 seconds and it improved the design by ~51.34%.
+2022-07-24 01:38:41.462 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.94 seconds.
+2022-07-24 01:38:41.463 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...
+2022-07-24 16:06:09.120 [main] INFO  Freerouting v1.6.2 (build-date: 2022-07-13)
+2022-07-24 16:06:09.132 [main] INFO  Opening 'C:\workspace\waveblaster-to-midi-module\freerouting.dsn'...
+2022-07-24 16:06:11.447 [main] INFO  Opening 'freerouting.rules'...
+2022-07-24 16:06:11.448 [main] ERROR File 'freerouting.rules' was not found.
+2022-07-24 16:06:11.636 [Thread-0] INFO  Starting auto-routing...
+2022-07-24 16:06:11.637 [main] TRACE Method 'MainApplication.main()' was performed in 2.65 seconds.
+2022-07-24 16:06:12.127 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #1 on board 'ad3878aeb25a8be0e19ad724fd6c0677' making 43 changes' was performed in 0.39 seconds.
+2022-07-24 16:06:12.153 [Thread-0] TRACE Method 'BatchAutorouter.autoroute_pass #2 on board 'f3227c077bc41cb0ff6ad4349d2418a1' making 0 changes' was performed in 0.01 seconds.
+2022-07-24 16:06:12.154 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-autorouting' was performed in 0.52 seconds.
+2022-07-24 16:06:12.155 [Thread-0] INFO  Auto-routing was completed in 0.52 seconds.
+2022-07-24 16:06:12.156 [Thread-0] INFO  Starting route optimization on 15 threads...
+2022-07-24 16:06:12.409 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #1 with 0 items, 1 vias and 270,410.13 trace length running on 15 threads.' was performed in 0.24 seconds.
+2022-07-24 16:06:12.551 [Thread-0] TRACE Method 'BatchOptRouteMT.opt_route_pass #2 with 18 items, 1 vias and 246,974.45 trace length running on 15 threads.' was performed in 0.14 seconds.
+2022-07-24 16:06:12.552 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()-routeoptimization' was performed in 0.39 seconds.
+2022-07-24 16:06:12.553 [Thread-0] INFO  Route optimization was completed in 0.39 seconds and it improved the design by ~57.15%.
+2022-07-24 16:06:12.560 [Thread-0] TRACE Method 'BatchAutorouterThread.thread_action()' was performed in 0.92 seconds.
+2022-07-24 16:06:12.562 [Thread-0] INFO  Saving 'C:\workspace\waveblaster-to-midi-module\freerouting.ses'...

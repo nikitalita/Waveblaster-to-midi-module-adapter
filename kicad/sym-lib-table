@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "PJ-327C-4A")(type "KiCad")(uri "${KIPRJMOD}/lib/PJ-327C-4A.kicad_sym")(options "")(descr ""))
+  (lib (name "RCJ-04X")(type "KiCad")(uri "${KIPRJMOD}/lib/RCJ-04X.kicad_sym")(options "")(descr ""))
+  (lib (name "6N138")(type "KiCad")(uri "${KIPRJMOD}/lib/6N138.kicad_sym")(options "")(descr ""))
+)
