@@ -16,10 +16,11 @@ Tested and working; here's the BOM:
 For the header, you also can just use 2.54mm pitch double row right angle header pins. For the resistors, just buy a through-hole resistor sample book on Amazon or something.
 
 If you want to add on the midi in port (most sound cards do not have this connected), add:
-1x H11L1M optocoupler : https://www.mouser.com/ProductDetail/onsemi-Fairchild/H11L1M
-1x 220 Ohm THT Resistor
-1x 280 Ohm THT Resistor
-1x 1N4148 THT Diode: https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148
+
+- 1x H11L1M optocoupler : https://www.mouser.com/ProductDetail/onsemi-Fairchild/H11L1M
+- 1x 220 Ohm THT Resistor
+- 1x 280 Ohm THT Resistor
+- 1x 1N4148 THT Diode: https://www.mouser.com/ProductDetail/onsemi-Fairchild/1N4148
 
 It's not advised to add on the audio output ports (for audio input into the synth), as only ONE sound card is known to make use of these: the MediaTriX AudioTriX 3D-XG, and it is very rare.
 
