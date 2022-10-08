@@ -25,8 +25,8 @@ screw_mount_inset_r = 2.9; // m3 bolt head
 screw_mount_inset_depth = 0;
 screw_mount_caulking = 0.5;
 
-first_mount_x = 10.11;
-mount_hole_distance = 85.4;
+first_mount_x = 25.01;
+mount_hole_distance = 54.9;
 // If on top of the PCB, it is recommended to have this be at least the thickness of the PCB
 screw_mount_y = 2.7;
 second_mount_x = first_mount_x + mount_hole_distance;
@@ -34,25 +34,25 @@ second_mount_x = first_mount_x + mount_hole_distance;
 /* [Round Holes] */
 hole_1_enabled = 1; // [0:false, 1:true]
 // X is offset from the first screw hole (i.e. the screw hole closest to the case mount cutout)
-hole_1_x = 11.01;
+hole_1_x = 9.09;
 // Y is offset from top of pcb
 hole_1_y = 6.7;
-hole_1_d = 9.5;
+hole_1_d = 9.7;
 
 hole_2_enabled = 1; // [0:false, 1:true]
-hole_2_x = 24.34;
+hole_2_x = 22.34;
 hole_2_y = 6.7;
-hole_2_d = 9.5;
+hole_2_d = 9.7;
 
 hole_3_enabled = 1; // [0:false, 1:true]
-hole_3_x = 63.41;
+hole_3_x = 34.71;
 hole_3_y = 7.2;
-hole_3_d = 6;
+hole_3_d = 7.5;
 
 hole_4_enabled = 1; // [0:false, 1:true]
-hole_4_x = 76.12;
+hole_4_x = 45.82;
 hole_4_y = 7.2;
-hole_4_d = 6;
+hole_4_d = 7.5;
 
 hole_5_enabled = 0; // [0:false, 1:true]
 hole_5_x = 37.69;
@@ -367,9 +367,10 @@ difference() {
     prism(bracket_bottom_tab_angle_length, bracket_bottom_tab_angle_length, bracket_bottom_tab_angle_length + 0.1);  
   
   // ornamental hole
-  translate([bracket_hole_distance, bracket_width / 2, -1.5])
-    cylinder(r=bracket_hole_dia / 2, h=3, $fn=20);
-
+  if (decorative_hole){
+      translate([bracket_hole_distance, bracket_width / 2, -1.5])
+        cylinder(r=bracket_hole_dia / 2, h=3, $fn=20);
+  }
   // notch out the shiftover
   translate([-0.95, bracket_width - notch_width, -1])
     cube([notch_length + 1, notch_width + .1, bracket_thickness + 2]);
